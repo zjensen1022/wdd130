@@ -29,9 +29,9 @@ main img {
 aside {
     width: 30%;
     margin: 10px;
-    border: 2px solid #86f4ef;
-    border-radius: 5px;
-    padding: 5px;
+    border: 2px solid #361527;
+    border-radius: 6px;
+    padding: 1rem;
     background-color: #86f4ef;
     color: black;
     text-align: center;
@@ -47,6 +47,6 @@ p {
 
 footer {
     margin-top: 20px;
-    border-top: 2px solid #000;
+    border-top: 2px solid #361527;
     text-align: center;
 }
