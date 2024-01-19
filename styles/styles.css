@@ -29,10 +29,10 @@ main img {
 aside {
     width: 30%;
     margin: 10px;
-    border: 2px solid #46b4af;
+    border: 2px solid #86f4ef;
     border-radius: 5px;
     padding: 5px;
-    background-color: #46b4af;
+    background-color: #86f4ef;
     color: black;
     text-align: center;
 }
@@ -42,5 +42,11 @@ aside img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #000;
+    text-align: center;
 }
