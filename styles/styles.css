@@ -19,6 +19,7 @@ h1 {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -27,14 +28,19 @@ main img {
 }
 
 aside {
+    position: relative;
     width: 30%;
-    margin: 10px;
     border: 2px solid #361527;
-    border-radius: 6px;
-    padding: 1rem;
     background-color: #86f4ef;
     color: black;
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    color: #FFF;
+    top: 0px;
+    left: 36%;
 }
 
 aside img {
@@ -51,3 +57,11 @@ footer {
     border-top: 2px solid #361527;
     text-align: center;
 }
+
+ /* Class Selectors */
+
+ .box {
+   margin: 1rem;
+   padding: 1rem;
+   
+ }
