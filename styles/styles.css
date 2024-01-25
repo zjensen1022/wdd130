@@ -5,8 +5,11 @@
  }
 
 main {
-    margin: 1rem;
     max-width: 820px;
+}
+
+main * {
+    margin: 1rem;
 }
 
 nav {
@@ -37,13 +40,8 @@ main img {
 aside {
     position: relative;
     width: 30%;
-    padding: 1rem;
-    margin: 1rem;
-    border: 2px solid #361527;
-    border-radius: 5px;
-    background-color: #86f4ef;
-    color: black;
     text-align: center;
+    clear: both;
 }
 
 aside h2 {
@@ -76,4 +74,8 @@ footer {
     border-radius: 3px;
     color: #361527; 
     background-color: #86f4ef;
+ }
+
+ ul.box {
+    width: 70%;
  }
