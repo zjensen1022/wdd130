@@ -41,7 +41,6 @@ aside {
     position: relative;
     width: 30%;
     text-align: center;
-    clear: both;
 }
 
 aside h2 {
@@ -78,4 +77,5 @@ footer {
 
  ul.box {
     width: 70%;
+    clear: both;
  }
