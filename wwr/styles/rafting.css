@@ -42,6 +42,7 @@ main {
 }
 
 p {
+   font-family: var(--paragraph-font);
    padding: 15px;
 }
 
@@ -49,17 +50,20 @@ nav a {
    text-decoration: none;
 }
 
-article img {
-    float: right;
-}
 
 a img {
     width: 40px;
     height: auto;
 }
 
+footer {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--accent2-color);
+}
+
 footer p {
-    padding: 0 15px;
+    padding: 0;
 }
 
 .hero {
@@ -84,9 +88,22 @@ footer p {
 
 .hero article {
     position: absolute;
+    background-color: rgba(255, 255, 255, .5);
+    left: 0;
+    right: 0;
     bottom: 30px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-.sociallinks {
-    padding: 0 15px;
+.hero article img {
+    float: right;
+    width: 200px;
+    height: auto;
+}
+
+.hero article p {
+    margin: 0;
+    padding: 0;
 }
