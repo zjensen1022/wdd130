@@ -58,6 +58,12 @@ header nav a {
     padding: 8px 25px;
 }
 
+header nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    border-radius: 5px;
+}
+
 main {
     margin: 10px;
 }
@@ -88,15 +94,15 @@ footer p {
 
 .adventure {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 12px;
-    justify-content: center;
+    grid-template-columns: repeat(5, 200px);
+    justify-content: space-around;
     align-items: space-around;
     grid-column: auto;
 }
 
 .adventure img {
     max-width: 100%;
+    border-radius: 4px;
 }
 
 .hero {
