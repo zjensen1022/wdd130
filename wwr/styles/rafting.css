@@ -56,6 +56,7 @@ header nav {
 header nav a {
     font-size: 20px;
     padding: 8px 25px;
+    color: var(--nav-link-color)
 }
 
 header nav a:hover{
