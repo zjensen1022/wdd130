@@ -84,6 +84,8 @@ a img {
 }
 
 footer {
+    position: relative;
+    text-align: center;
     padding: 15px;
     border-radius: 5px;
     background-color: var(--accent2-color);
@@ -155,4 +157,14 @@ footer p {
 .hero article p {
     margin: 0;
     padding: 0;
+}
+
+.sociallinks {
+    display: block;
+    position: absolute;
+    height: fit-content;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
 }
