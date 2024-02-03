@@ -112,9 +112,15 @@ footer p {
     text-align: center;
 }
 
-.adventure img {
+.adventure img, .history img {
     max-width: 100%;
     border-radius: 4px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 150px 1fr;
+    align-items: center;
 }
 
 .hero {
