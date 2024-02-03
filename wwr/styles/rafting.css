@@ -94,10 +94,19 @@ footer p {
 
 .adventure {
     display: grid;
-    grid-template-columns: repeat(5, 200px);
-    justify-content: space-around;
+    grid-template-columns: repeat(5, 220px);
+    justify-content: space-between;
     align-items: space-around;
     grid-column: auto;
+}
+
+.adventure figure {
+    padding: 0;
+    margin: 10px;
+}
+
+.adventure figcaption {
+    text-align: center;
 }
 
 .adventure img {
