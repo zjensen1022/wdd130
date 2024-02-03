@@ -97,7 +97,7 @@ footer p {
     display: grid;
     grid-template-columns: repeat(5, 220px);
     justify-content: space-between;
-    align-items: space-around;
+    align-items: center;
     grid-column: auto;
 }
 
