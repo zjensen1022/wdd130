@@ -25,16 +25,37 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
 }
 
+h2 {
+    text-align: center;
+}
+
 header {
-   padding: 15px;
-   margin: 10px;
-   border-radius: 5px;
-   background-color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    justify-items: center; 
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: var(--accent2-color);
 }
 
 header img {
    height: 120px;
    border-radius: 5px;
+}
+
+header nav {
+    display: flex;
+    max-width: 800px;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: stretch;
+}
+
+header nav a {
+    font-size: 20px;
+    padding: 8px 25px;
 }
 
 main {
@@ -63,6 +84,19 @@ footer {
 
 footer p {
     padding: 0;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 12px;
+    justify-content: center;
+    align-items: space-around;
+    grid-column: auto;
+}
+
+.adventure img {
+    max-width: 100%;
 }
 
 .hero {
