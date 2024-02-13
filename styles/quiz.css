@@ -12,3 +12,12 @@ form {
     width: 700px;
     margin: 0 auto;
 }
+
+.code-box {
+    background-color: #003847;
+    color: #859900;
+    padding: 6px 10px;
+    margin: 0 auto;
+    border-radius: 0.6rem;
+    width: 300px;
+}
