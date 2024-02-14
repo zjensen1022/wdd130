@@ -179,3 +179,16 @@ footer p {
     bottom: 0;
     margin: auto 0;
 }
+
+.info {
+    position: relatvie;
+}
+
+.info iframe {
+
+}
+
+.info p {
+    padding: 5px;
+    margin: 5px;
+}
