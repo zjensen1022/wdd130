@@ -204,6 +204,7 @@ footer p {
 }
 
 .info p {
+    font-size: 1.1rem;
     padding: 12px;
     margin: 12px;
 }
@@ -216,9 +217,64 @@ footer p {
 
 .team-profile p {
     text-align: center;
+    font-size: 1.1rem;
 }
 
 .team-profile img {
+    display: block;
     width: 250px;
     height: 250px;
+    margin: 0 auto;
+}
+
+.message form {
+    position: relative;
+    width: 800px;
+    margin: 20px auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.message input[type="text"],
+.message input[type="email"] {
+    display: block;
+    font-size: 1.2rem;
+    margin: 20px;
+    width: 300px;
+}
+
+.message input[type="checkbox"] {
+    margin: 10px 5px 0 20px;
+}
+
+.message fieldset {
+    border: none;
+    position: absolute;
+    right: 40px;
+    top: 15px;
+}
+
+.message textarea {
+    display: block;
+    margin: 10px 20px;
+    width: 754px;
+    font-size: 1.2rem;
+}
+
+.message button {
+    display: block;
+    background-color: #fff;
+    color: var(--primary-color);
+    width: 200px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.message button:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
 }
