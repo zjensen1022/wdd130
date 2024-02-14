@@ -236,14 +236,16 @@ footer p {
 
 .message input[type="text"],
 .message input[type="email"] {
-    display: block;
     font-size: 1.2rem;
-    margin: 20px;
     width: 300px;
 }
 
 .message input[type="checkbox"] {
     margin: 10px 5px 0 20px;
+}
+
+.message label {
+    font-size: 1.2rem;
 }
 
 .message fieldset {
@@ -272,8 +274,12 @@ footer p {
     border-radius: 5px;
 }
 
-.message button:hover{
+.message button:hover {
     cursor: pointer;
     background-color: var(--primary-color);
     color: #fff;
+}
+
+.input-container {
+   margin: 20px;
 }
