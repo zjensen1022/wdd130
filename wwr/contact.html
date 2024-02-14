@@ -21,30 +21,54 @@
         <main>
             <h1>Contact Us</h1>
             <section class="info">
-                <p>Our Address: 345 Imaginary Lane, Utah</p>
-                <p>Our Phone: (801)-123-4567</p>
-                <p>Our Email: contact@whitewateradventures.com</p>
-                <!--todo: put google map here.-->
+                <div>
+                    <p>Our Address: 345 Imaginary Lane, Utah</p>
+                    <p>Our Phone: (801)-123-4567</p>
+                    <p>Our Email: contact@whitewateradventures.com</p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d37961.15966788146!2d-109.55729506443318!3d38.578717521660415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1707946273070!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
+
+            <h2>Our Team</h2>
             <section class="team">
                 <div class="team-profile">
-
+                    <p>Rafting Guide</p>
+                    <img src="emp1.jpg" alt="Rafting Guide">
                 </div>
                 <div class="team-profile">
-
+                    <p>Team Manager</p>
+                    <img src="emp1.jpg" alt="Team Manager">
                 </div>
                 <div class="team-profile">
-
+                    <p>Event Coordinator</p>
+                    <img src="emp1.jpg" alt="Event Coordinator">
                 </div>
             </section>
+
+            <h2>Send us a Message</h2>
             <section class="message">
                 <form>
-
+                    <input type="text" placeholder="Your Name" name="name" id="name">
+                    <input type="email" placeholder="Your Email" name="email" id="email">
+                    <fieldset>
+                        <legend>Reason for Message:</legend>
+                        <input type="radio" name="general" value="general" checked>
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" name="reservation" value="reservation">
+                        <label for="reservation">General Inquiry</label>
+                        <input type="radio" name="suggestion" value="suggestion">
+                        <label for="suggestion">General Inquiry</label>
+                    </fieldset>
+                    <textarea placeholder="Message" rows="4"></textarea>
+                    <button type="submit">Submit Message</button>
                 </form>
             </section>
         </main>
         <footer>
-            <p>&copy;2024 | Whitewater Adventures | Zac Jensen</p>
+            <p>
+                &copy;2024 | Whitewater Adventures | Zac Jensen | 
+                <a href="https://app.moqups.com/SFThGJMu39DemQpFjkTJ21c40H43Yf4P/view/page/a25e96680" target="_blank">Mockup</a>
+            </p>
             <nav class="sociallinks">
                 <a href="https://instagram.com">
                     <img src="images/instagram.svg" alt="Instagram"> 

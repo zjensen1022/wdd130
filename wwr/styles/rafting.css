@@ -181,14 +181,44 @@ footer p {
 }
 
 .info {
-    position: relatvie;
+    position: relative;
+    height: 300px;
+}
+
+.info div {
+    position: absolute;
+    height: wrap-content;
+    top: 0;
+    bottom: 0;
+    left: 30;
+    margin: auto 0;
+    height: fit-content;
 }
 
 .info iframe {
-
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
 }
 
 .info p {
-    padding: 5px;
-    margin: 5px;
+    padding: 12px;
+    margin: 12px;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around; 
+}
+
+.team-profile p {
+    text-align: center;
+}
+
+.team-profile img {
+    width: 250px;
+    height: 250px;
 }
