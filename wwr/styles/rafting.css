@@ -122,10 +122,29 @@ footer p {
     border-radius: 4px;
 }
 
+.call {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 20px 350px;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.call:hover {
+    color: #FFF;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
 .history {
     display: grid;
-    grid-template-columns: 1fr 150px 1fr;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
 }
 
 .hero {
@@ -226,6 +245,16 @@ footer p {
     height: 250px;
     margin: 0 auto;
     border-radius: 5px;
+}
+
+.trip-container {
+    display: grid;
+    align-items: space-between;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.trip {
+
 }
 
 .message form {
