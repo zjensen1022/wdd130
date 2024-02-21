@@ -289,6 +289,7 @@ footer p {
 .main2 img,
 .main2 p {
     width: 330px;
+    border-radius: 5px;
 }
 
 .team {
