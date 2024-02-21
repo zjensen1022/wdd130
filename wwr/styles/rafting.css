@@ -145,6 +145,10 @@ footer p {
     border-color: var(--primary-color);
 }
 
+.call-section {
+    border: 1px solid var(--primary-color);
+}
+
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -230,6 +234,22 @@ footer p {
     font-size: 1.1rem;
     padding: 12px;
     margin: 12px;
+}
+
+.main1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 0;
+}
+
+.main1 div,
+.main2 div {
+    text-align: center;
+}
+
+.main2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .team {
