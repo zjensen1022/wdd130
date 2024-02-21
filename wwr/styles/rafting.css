@@ -128,11 +128,12 @@ footer p {
 
 .call {
     display: block;
+    width: 400px;
     text-align: center;
     font-size: 1.5rem;
     color: var(--primary-color);
     text-decoration: none;
-    margin: 30px 350px 40px;
+    margin: 30px auto 40px;
     border: 1px solid var(--secondary-color);
     background-color: var(--secondary-color);
     border-radius: 5px;
@@ -143,10 +144,6 @@ footer p {
     color: #FFF;
     background-color: var(--primary-color);
     border-color: var(--primary-color);
-}
-
-.call-section {
-    border: 1px solid var(--primary-color);
 }
 
 .history {
@@ -237,9 +234,44 @@ footer p {
 }
 
 .main1 {
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 20px 0;
+}
+
+.main1 form,
+.call-section {
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.main1 form {
+    margin-right: 7px;
+}
+
+.call-section {
+    margin-left: 7px;
+}
+
+.main1 fieldset {
+    border: none;
+}
+
+.main1 legend {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.main1 label {
+    font-size: 1.3rem;
+}
+
+.main1 input {
+    margin: 5px 0;
+    font-size: 1.4rem;
+    width: 60%;
 }
 
 .main1 div,
@@ -248,8 +280,15 @@ footer p {
 }
 
 .main2 {
+    max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+}
+
+.main2 img,
+.main2 p {
+    width: 330px;
 }
 
 .team {
